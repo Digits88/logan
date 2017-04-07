@@ -1,11 +1,14 @@
-.htaccess
-css.php
-rpc/
-sites/site*/admin/
-sites/site*/private/
-sites/site*/public/admin/
-sites/site*/public/setup/
-sites/site*/public/theme/
-textpattern/
-HISTORY.txt
-README.txt
+client_logs/
+.vagrant
+*.zip
+*.swp
+
+
+# Ignore everything:
+*
+
+# Except:
+!parse.sh
+!logan.sh
+!README.md
+!.gitignore
